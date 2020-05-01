@@ -67,9 +67,9 @@ public class Author {
 	 */
 	@Override
 	public String toString() {
-		return "Author [id=" + id + ", firstName=" + firstName + ", lastName=" + lastName + ", books=" + books
+		return "Author [id=" + id + ", firstName=" + firstName + ", lastName=" + lastName
 				+ ", getId()=" + getId() + ", getFirstName()=" + getFirstName() + ", getLastName()=" + getLastName()
-				+ ", getBooks()=" + getBooks() + ", hashCode()=" + hashCode() + ", getClass()=" + getClass()
+				+ ", hashCode()=" + hashCode() + ", getClass()=" + getClass()
 				+ ", toString()=" + super.toString() + "]";
 	}
 

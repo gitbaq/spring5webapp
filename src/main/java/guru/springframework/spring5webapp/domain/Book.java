@@ -77,8 +77,8 @@ public class Book {
 	 */
 	@Override
 	public String toString() {
-		return "Book [id=" + id + ", title=" + title + ", isbn=" + isbn + ", authors=" + authors + ", getTitle()="
-				+ getTitle() + ", getIsbn()=" + getIsbn() + ", getAuthors()=" + getAuthors() + ", hashCode()="
+		return "Book [id=" + id + ", title=" + title + ", isbn=" + isbn + ", getTitle()="
+				+ getTitle() + ", getIsbn()=" + getIsbn() + ", hashCode()="
 				+ hashCode() + ", getClass()=" + getClass() + ", toString()=" + super.toString() + "]";
 	}
 
